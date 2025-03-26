@@ -10,7 +10,7 @@ A Python-based transcription utility that converts audio files to text documents
 - 📄 Automatic .docx extension handling
 - ❗ Interactive file validation and error handling
 - 🌐 Multi-language support (currently configured for Russian)
-- ❗ Pure text output, no unnecessary timestamps
+- 📚 Pure text output, no unnecessary timestamps
 
 ## Installation
 
