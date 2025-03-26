@@ -1,4 +1,4 @@
-# Whisper AI Audio-to-Text Transcription Tool
+# Audio-to-Text Transcription Tool
 
 A Python-based transcription utility that converts audio files to text documents using OpenAI's Whisper AI model. Supports multiple audio formats and provides interactive command-line interface.
 
@@ -33,27 +33,27 @@ A Python-based transcription utility that converts audio files to text documents
    choco install ffmpeg
 ## How to use the tool
 
-- ### Install Python packages:
+### Install Python packages:
 
 ```bash
 pip install torch whisper python-docx
 ```
 
-- ### For GPU support (recommended), install PyTorch with CUDA:
+### For GPU support (recommended), install PyTorch with CUDA:
 
 ```bash
 pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu117
 ```
 
-- ### Place your audio file in the project directory
+### Place your audio file in the project directory
 
-- ### Run the script:
+### Run the script:
 
 ```bash
 python whisper_transcriber.py
 ```
 
-- ### Follow the interactive prompts:
+### Follow the interactive prompts:
 
 ```bash
 ===========================================
@@ -63,9 +63,9 @@ python whisper_transcriber.py
 Enter audio file name in root directory (e.g., my_audio.m4a): recording.m4a
 Enter output DOCX filename (e.g., transcript.docx): meeting_notes
 ```
-- ### Wait for transcription to complete (progress shown in console)
+### Wait for transcription to complete (progress shown in console)
 
-- ### Find your transcript in the generated .docx file
+### Find your transcript in the generated .docx file
 
 ### Example output:
 ```bash
